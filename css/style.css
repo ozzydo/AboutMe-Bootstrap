@@ -1,0 +1,102 @@
+.main-photo {
+    width: 100%;
+    max-width: 550px;
+    height: auto; 
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.font-size-title {
+    font-size: 60px;
+}
+
+.font-size-subtitle {
+    font-size: 40px;
+}
+
+.font-size-p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.btn {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.footer-img {
+    width: 30px;
+    height: auto;
+    transition: transform .2s; 
+}
+
+.footer-img:hover {
+    transform: scale(1.75);
+}
+
+.footer-font-size {
+    font-size: 22px;
+}
+
+.resume-title {
+    font-size: 60px;
+}
+
+.resume-p {
+    font-weight: 300;
+}
+
+.project-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto; 
+    border: 1px solid #000;
+    border-radius: 50px;
+    transition: transform .2s;
+}
+
+.project-img:hover {
+    transform: scale(1.75);
+}
+
+.form-width{
+    width: 100%;
+    max-width: 500px;
+    height: auto; 
+    border: 1px solid #000;
+    border-radius: 50px;
+}
+
+#massage {
+    width: 100%;
+    max-width: 500px;
+    height: auto; 
+    resize: none;font-weight: 300; 
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+#button {
+    border: 1px solid rgb(62, 61, 61);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    height: auto; 
+    background-color: #ecbe35;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 1200px) {
+    #button {
+        border: 1px solid rgb(62, 61, 61);
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        background-color: #ecbe35;
+        font-size: 26px;
+        font-weight: 300;
+    }
+}
