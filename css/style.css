@@ -27,7 +27,7 @@ body {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    border-radius: 1px solid #000;
+    border-radius: 1px solid;
 }
 
 .btn:hover {
