@@ -76,6 +76,7 @@ body {
     height: auto; 
     border: 1px solid #000;
     border-radius: 50px;
+    font-weight: 300;
 }
 
 #massage {
